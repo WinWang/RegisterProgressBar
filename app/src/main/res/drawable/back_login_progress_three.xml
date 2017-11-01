@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/back_progess_three_gray"
+
+        />
+    <item
+        android:id="@android:id/progress"
+        android:drawable="@drawable/back_progess_three_red"
+        />
+
+
+    <!--<item android:id="@android:id/background">-->
+        <!--<nine-patch android:src="@drawable/back_login_progress_back" android:dither="true" />-->
+    <!--</item>-->
+
+    <!--<item android:id="@android:id/progress">-->
+        <!--<clip>-->
+            <!--<nine-patch android:src="@drawable/back_login_progress_back" android:dither="true" />-->
+        <!--</clip>-->
+    <!--</item>-->
+
+
+
+    <!--<item-->
+    <!--android:id="@android:id/background">-->
+    <!--<scale-->
+    <!--android:drawable="@drawable/back_login_progress_back"-->
+    <!--android:scaleWidth="100%"/>-->
+
+
+    <!--</item>-->
+    <!--<item-->
+    <!--android:id="@android:id/progress">-->
+    <!--<scale-->
+    <!--android:drawable="@drawable/back_login_progress_forward"-->
+    <!--android:scaleWidth="100%"/>-->
+
+    <!--</item>-->
+
+
+</layer-list>

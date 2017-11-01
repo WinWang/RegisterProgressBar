@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.winwang.registerprogressbar.MainActivity">
+
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="right"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="203dp"
+        android:layout_height="32dp"
+        android:max="100"
+        android:progress="16"
+        android:progressDrawable="@drawable/back_login_progress_three"/>
+
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第一步"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="第二步"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="第三步"/>
+
+
+
+
+</LinearLayout>
